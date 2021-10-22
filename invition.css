@@ -1,0 +1,27 @@
+body
+{
+    background-color: rgb(243, 8, 212); 
+}
+html
+{
+    scroll-behavior: smooth;
+    font-family:'Times New Roman', Times, serif;
+}
+#shinchan
+{
+    display: inline;
+    vertical-align: initial;
+   
+}
+
+#cradle
+{
+    display: inline;
+    position: absolute;
+}
+
+#contact
+{
+    font-size: 20px;
+}
+
