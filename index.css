@@ -1710,12 +1710,21 @@ footer span #copyright{
     /* border: none;    */
     border-bottom: 1px solid #fff;
     /* border-radius: 6px  ; */
-    outline: none;
+    /* outline: none; */
     padding: 0 15px;
     font-size: 17px;
     font-family: 'Poppins' , sans-serif;
+
+}
+
+
+.contact .right #form .textarea textarea{
+    padding-top: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
     resize: none;
 }
+
 
 .contact .right #form #email {
     margin-left: -10px;
@@ -1737,7 +1746,9 @@ footer span #copyright{
 
 
 
-
+footer span{
+    font-size: 11px;
+}
 
 
 
