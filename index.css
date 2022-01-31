@@ -1707,9 +1707,8 @@ footer span #copyright{
     width: 100%;
     background-color: transparent;
     border: 1px solid #111;
-    /* border: none;    */
     border-bottom: 1px solid #fff;
-    /* border-radius: 6px  ; */
+    /* border: none;    */
     /* outline: none; */
     padding: 0 15px;
     font-size: 17px;
