@@ -937,7 +937,8 @@ section .title::after
 .contact .right #form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    /* border: none; */
+    border: 1px solid lightgrey;    
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -1704,7 +1705,7 @@ footer span #copyright{
 .contact .right #form .textarea textarea , ::placeholder{
     height: 100%;
     width: 100%;
-    background-color: transparent ;
+    background-color: transparent;
     border: 1px solid #111;
     /* border: none;    */
     border-bottom: 1px solid #fff;
@@ -1713,6 +1714,7 @@ footer span #copyright{
     padding: 0 15px;
     font-size: 17px;
     font-family: 'Poppins' , sans-serif;
+    resize: none;
 }
 
 .contact .right #form #email {
