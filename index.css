@@ -50,17 +50,9 @@ html{
 
 .navbar.disappear, .text-1.disappear, .text-3.disappear { 
     animation: fade-in 1s forwards;
-    /* background: url("Mirror.jpg") no-repeat left; */
 
 }
 
-
-
-/* .text-2.disappear{
-    font-size: 75px;
-    font-weight: 600;
-    margin-left: -3px;
-} */
 
 @keyframes fade-in{
     100%{
@@ -336,7 +328,7 @@ html{
 /* All Similar Content Syling Code */
 
 
-.about, .services, .skills, .teams, .contact, footer
+.about, .services, .skills, .teams, .contact, .footer
 {
     font-family: 'Poppins',sans-serif;
 }
@@ -439,16 +431,6 @@ section .title::after
 
 
 
-/* .home .home-content #svg{
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    
-} */
-
-
 
 
 
@@ -497,9 +479,6 @@ section .title::after
 
 /* About Section Styling */
 
-/* .about .title::after{
-    content: "who i am";
-} */
 
 .about .title::before{
     background-color:  #111;
@@ -634,10 +613,6 @@ section .title::after
 
 /* Skills Styling Begins */
 
-
-/* .skills .title::after{
-    content: "what i know";
-} */
 
 .skills .title::before{
     width: 20vh;
@@ -831,9 +806,6 @@ section .title::after
 
 /* Contact Me Styling */
 
-/* .contact .title::after{
-    content: "get in touch";
-} */
 .contact .title::before{
     background-color: #111;
 }
@@ -960,34 +932,10 @@ section .title::after
 
   
 
-/* .contact .right #form .button button{
-    width: 100%;
-    height: 100%;
-    border: 2px solid crimson;
-    background: crimson;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-
-.contact .right #form .button button:hover{
-    color: crimson;
-    background: none;
-
-} */
-
 
 
 /* From cssbuttons.io by @menezes11 */
 
-/* .contact .right #form .button {
-    width: 10%;
-    height: 4%;
-} */
 .contact .right #form .button {
     position: relative;
     padding: -1em 2em;
@@ -1148,7 +1096,6 @@ section .title::after
 
     padding: 0.5em 0.8em;
     margin-left: 80%;
-    /* margin-right: 50%; */
     margin-top: 15px;
     border: 2px solid blue;
     position: absolute;
@@ -1157,7 +1104,6 @@ section .title::after
     text-align: center;
     text-transform: uppercase;
     font-size: 16px;
-    /* transition: .3s; */
     z-index: 1;
     font-family: inherit;
     color: crimson;
@@ -1201,14 +1147,14 @@ section .title::after
 
 
 /* Footer Section Styling */
-footer{
+.footer{
     background: #111;
     padding: 20px 23px;
     color: #fff;
 
 }
 
-footer span a{
+.footer span a{
     color: crimson;
     text-decoration: none;
     margin-right: -30%;
@@ -1216,17 +1162,17 @@ footer span a{
 
 }
 
-footer span{
+.footer span{
 
     margin-left: 35%;
 
 }
 
-footer span a{
+.footer span a{
     margin-right: -35%;
 }
 
-footer span a:hover{
+.footer span a:hover{
     text-decoration: underline;
 }
 
@@ -1244,8 +1190,6 @@ footer span a:hover{
     
     cursor: pointer;
     font-size: 40px;
-
-    /* color: green; */
     color: black;
     margin-top: 50px;
 }
@@ -1262,7 +1206,6 @@ footer span a:hover{
     margin-left: 15px;
     font-size: 40px;
     color: black;
-    /* color: rgba(158, 4, 4, 0.945); */
 }
 
 
@@ -1496,7 +1439,7 @@ display: none;
 
 
 
-footer span a{
+.footer span a{
     color: crimson;
     text-decoration: none;
     margin-right: 4%;
@@ -1504,7 +1447,7 @@ footer span a{
 
 }
 
-footer span{
+.footer span{
     margin-left: -13px;
     font-size: 13px;
 
@@ -1513,18 +1456,6 @@ footer span{
 body, html{
     overflow-x: hidden;
 }
-
-
-/* 
-footer span #copyright{
-    margin-right: 20px;
-} */
-
-/* .contact .contact-content .column{
-    width: 100%;
-    margin-top: 35px;
-} */
-
 
 
 
@@ -1604,7 +1535,6 @@ footer span #copyright{
     text-align: center;
     text-transform: uppercase;
     font-size: 16px;
-    /* transition: .3s; */
     z-index: 1;
     font-family: inherit;
     color: crimson;
@@ -1625,7 +1555,6 @@ footer span #copyright{
     text-align: center;
     text-transform: uppercase;
     font-size: 16px;
-    /* transition: .3s; */
     z-index: 1;
     font-family: inherit;
     color: crimson;
@@ -1738,12 +1667,6 @@ footer span #copyright{
     font-size: 15px;
     content: "where i worked";
 }
-
-/* .skills .title::after{
-    font-size: 15px;
-    
-    content: "where i worked";
-} */
 
 
 
@@ -1869,7 +1792,6 @@ footer span #copyright{
     border-bottom: 1px solid #fff;
     outline: none;
     text-decoration: none;
-    /* padding: 0 15px; */
     font-size: 17px;
     font-family: 'Poppins' , sans-serif;
 
@@ -1885,8 +1807,7 @@ footer span #copyright{
 
 
 .contact .right #form #email {
-    border-top: 1px solid #111;
-    
+    border-top: 1px solid #111;    
     margin-left: -10px;
   
 }
@@ -1903,7 +1824,6 @@ footer span #copyright{
 }
 .contact .contact-content .left p{
     text-align: justify;
-    /* align-items: center; */
     font-size: 17px;
     font-weight: 100;
     margin-bottom: 50px;
@@ -1911,10 +1831,17 @@ footer span #copyright{
 }
 
 
+.skills .text, .contact .column.left p{
+    margin-top: -20%;
+}
 
 
+.footer{
+    padding: 30px 20px;
+}
 
-footer span{
+
+.footer span{
     font-size: 11px;
 }
 
@@ -1928,7 +1855,6 @@ footer span{
  #whatsapp i{
 
     font-size: 35px;
-    /* color: green;  */
     color: black;
     margin-top: 40px;
 } 

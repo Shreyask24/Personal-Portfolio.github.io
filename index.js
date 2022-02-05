@@ -190,42 +190,6 @@ function ValidateEmail(mail) {
 
 
 
-// Email Validation
-
-
-
-
-
-
-
-// function sendEmail() {
-
-
-//     var tempparams = {
-
-//         from_name: document.getElementById('fromname').value,
-//         email: document.getElementById('email').value,
-//         message: document.getElementById('msg').value
-
-
-//     };
-
-//     // alert('HI')
-
-
-//     emailjs.send('service_t801tek', 'template_gmzd089', tempparams)
-//         .then(function (res) {
-//             // console.log("success", res.status);
-//             alert('Thanks for responding I will get you back!', res.status);
-//         })
-
-
-// }
-
-
-
-
-
 
 
 
@@ -293,15 +257,6 @@ setTimeout(() => {
 
 
 
-
-
-
-    // $('text-1').removeClass('disappear');
-    // $('text-2').addClass('disappear');
-
-
-
-
     console.log('bro');
 
 }, 4100);
@@ -341,16 +296,13 @@ function darkmode() {
     darkmode.style.color = 'white'
 
     var main = document.getElementById('main');
-    // main.style.backgroundColor='black';
     main.style.color = 'white';
 
 
     var add = document.getElementById('add');
-    // add.style.backgroundColor = 'black';
     add.style.color = 'white';
 
     var EmailIdi = document.getElementById('EmailId');
-    // Email.style.backgroundColor = 'Black';
     EmailIdi.style.color = 'white';
 
 
@@ -359,10 +311,6 @@ function darkmode() {
     Emaillogo.style.backgroundColor = 'black';
     Emaillogo.style.color = 'crimson';
 
-
-
-    // var title=document.querySelectorAll('.about .about-content .right a')
-    // title.style.backgroundColor='black';
 
 
     var instagram = document.getElementById('instagram');
