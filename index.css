@@ -247,7 +247,7 @@ html{
 
 }
 
-.navbar .menu li{
+.navbar  li{
     list-style: block;
     display: inline-block;
     
@@ -315,7 +315,7 @@ html{
 
 .scroll-up-btn.show{
     bottom: 30px;
-  opacity: 1;
+    opacity: 1;
     pointer-events: auto;
 }
 
@@ -1187,6 +1187,10 @@ section .title::after
    }
 
 
+   .container{
+       display: none;
+   }
+
 
 
 
@@ -1278,8 +1282,14 @@ footer span a:hover{
 
 
 
+#closedbtns {
+display: none;
+}
 
 
+#hide-menu{
+    display: none;
+}
 
 
 
@@ -1294,6 +1304,7 @@ footer span a:hover{
 {
     margin-left: 0px;
 }
+
 }
 
 
@@ -1324,31 +1335,6 @@ footer span a:hover{
 
 
 
-.menu-btn {
-    display: block;
-    z-index: 999;
-}
-
-.menu-btn i.active::before
-{
-    content: "\f00d";
-}
-
-
-
-.navbar .menu
-{
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    left: -100%;
-    top: 0;
-    background: #111;
-    text-align: center;
-    padding-top: 80px;
-    transition: 0.3s ease;
-}
-
 .navbar .menu li {
 
     display: block;
@@ -1371,6 +1357,60 @@ footer span a:hover{
     height: 80vh;
 
 }
+
+
+        
+        
+.menu-btn {
+    display: block;
+    z-index: 999;
+}
+
+
+
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+
+.navbar .menu
+{
+    
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+    text-align: center;
+    padding-top: 80px;
+    transition: 0.3s ease;
+}
+
+
 }
 
 
@@ -1587,6 +1627,58 @@ footer span #copyright{
    }
    
 
+        
+        
+   .menu-btn {
+    display: block;
+    z-index: 999;
+}
+
+
+
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+
+.navbar .menu
+{
+    
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+    text-align: center;
+    padding-top: 80px;
+    transition: 0.3s ease;
+}
+
+
 
 }
 
@@ -1668,6 +1760,64 @@ footer span #copyright{
     border-radius: 6px;      
 }
 
+
+        
+        
+.menu-btn {
+    display: block;
+    z-index: 999;
+}
+
+
+
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+
+.navbar .menu
+{
+    
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+    text-align: center;
+    padding-top: 80px;
+    transition: 0.3s ease;
+}
+
+
+
+
+
+
+
 .contact .right #form .button{
     height: 35px;
     width: 130px;
@@ -1707,15 +1857,9 @@ footer span #copyright{
     width: 100%;
     background-color: transparent;
     border-top: 1px solid #111;
-        outline: none;
-    text-decoration: none;
-    /* border-left: #111;
-    border-right: #111; */
-/*     
-    border: 1px solid #111; */
     border-bottom: 1px solid #fff;
-    /* border: none;    */
-    /* outline: none; */
+    outline: none;
+    text-decoration: none;
     padding: 0 15px;
     font-size: 17px;
     font-family: 'Poppins' , sans-serif;

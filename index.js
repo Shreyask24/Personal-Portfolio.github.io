@@ -22,32 +22,52 @@ $(document).ready(function () {
 
 
 
+
+
+
+
 // Slide-up Script
 $('.scroll-up-btn').click(function () {
     $('html').animate({ scrollTop: 0 });
+    //removing smooth scroll on slide-up button click
+    $('html').css("scrollBehaviour", "smooth")
+});
+
+$('.navbar .menu li a').click(function () {
+    // applying again smooth scroll on menu items click
+    $('html').css("scrollBehavior", "smooth");
 });
 
 
 
-// toggle menubar/navbar script
 
-$('.menu-btn').click(function () {
-    $('.navbar .menu').toggleClass("active").hidden;
-    $('.menu-btn i').toggleClass("active").hidden;
+
+
+// toggle menu/navbar script
+$('.container').click(function () {
+    $('.navbar .menu').toggleClass("active");
+    $('.container').toggleClass("active");
 
 
 });
 
 
 
+$('.menu-btn').click(function() {
+    $('.navbar .menu').toggleClass("active");
+})
 
-// var menu = document.getElementsByClassName('menu-btn i')
 
 
-//     if (menu.click) {
-//         $('.menu-btn i').addClass("active");
+function myFunction(x) {
+    x.classList.toggle("change");
+}
 
-//     }
+
+
+
+
+
 
 // Typing Animation Script
 var typed = new Typed(".typing ", {
@@ -66,6 +86,10 @@ var typed = new Typed(".typing-2 ", {
     bacSpeed: 60,
     loop: true
 });
+
+
+
+
 
 
 

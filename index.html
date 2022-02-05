@@ -86,6 +86,11 @@
     </script> -->
 
 
+
+
+
+
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function () {
@@ -124,23 +129,29 @@
         <i style="font-size:30px" class="fa">&#xf106;</i>
     </div>
 
+
+
+
     <nav class="navbar">
+
+
         <div class="max-width">
             <div class="logo"><a href="#"> Portfo<span>lio.</span></a></div>
+
 
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Service</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#teams" class="menu-btn">Experience</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
 
-            <div class="menu-btn" id="hide-menu">
-
-                <i style="font-size:24px" class="fa">&#xf0c9;</i>
-
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
             </div>
 
 
@@ -394,11 +405,11 @@
 
 
     <!-- Teams Section Starts -->
-    <section class="teams" id="teams" data-aos-once="true" data-aos-duration="2000" data-   aos="zoom-out">
+    <section class="teams" id="teams" data-aos-once="true" data-aos-duration="2000" data- aos="zoom-out">
         <div class="max-width">
             <h2 class="title">Experience</h2>
             <div class="carousel owl-carousel">
-                <div class="card"  data-aos-duration="2000" data-aos="zoom-in">
+                <div class="card" data-aos-duration="2000" data-aos="zoom-in">
                     <div class="box">
                         <img src="valethi.jpg" alt="">
                         <div class="text">Valethi Technologies</div>
@@ -412,8 +423,8 @@
                 </div>
 
 
-                <div class="card" >
-                    <div class="box" data-aos-duration="2000" data-aos="zoom-in" >
+                <div class="card">
+                    <div class="box" data-aos-duration="2000" data-aos="zoom-in">
                         <img src="Candid.jpg" alt="">
                         <div class="text">Someone Name</div>
 
@@ -425,7 +436,7 @@
 
 
                 <div class="card">
-                    <div class="box"  data-aos-duration="2000" data-aos="zoom-in">
+                    <div class="box" data-aos-duration="2000" data-aos="zoom-in">
                         <div class=".owl-dot"></div>
                         <img src="Mirror.jpg" alt="">
                         <div class="text">Someone Name</div>
@@ -439,7 +450,7 @@
                 </div>
 
                 <div class="card">
-                    <div class="box"  data-aos-duration="2000" data-aos="zoom-in">
+                    <div class="box" data-aos-duration="2000" data-aos="zoom-in">
                         <div class=".owl-dot"></div>
                         <img src="Mirror.jpg" alt="">
                         <div class="text">Someone Name</div>
@@ -454,7 +465,7 @@
 
 
                 <div class="card">
-                    <div class="box"  data-aos-duration="2000" data-aos="zoom-in">
+                    <div class="box" data-aos-duration="2000" data-aos="zoom-in">
                         <div class=".owl-dot"></div>
                         <img src="Selfie.jpeg" alt="">
                         <div class="text">Someone Name</div>
@@ -542,14 +553,14 @@
                                     </div>
 
 
-                                
+
                                 </div>
 
 
                                 <div class="field textarea">
                                     <textarea cols="30" rows="10" placeholder="Message..." id="msg" required></textarea>
                                 </div>
-                                
+
                                 <button class="button" onclick=sendEmail()>
                                     <span></span>Send
                                     <span></span>
