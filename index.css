@@ -1396,6 +1396,11 @@ display: none;
 
 
 
+
+
+
+
+
 .navbar .menu
 {
     
@@ -1771,6 +1776,9 @@ footer span #copyright{
 
 
 
+
+
+
 .container {
     display: inline-block;
     cursor: pointer;
@@ -1846,6 +1854,7 @@ footer span #copyright{
 
 
 .contact .right #form .fields{
+    
     display: inline-block;
 
 }
@@ -1856,11 +1865,11 @@ footer span #copyright{
     height: 100%;
     width: 100%;
     background-color: transparent;
-    border-top: 1px solid #111;
+    border: none;
     border-bottom: 1px solid #fff;
     outline: none;
     text-decoration: none;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     font-size: 17px;
     font-family: 'Poppins' , sans-serif;
 
@@ -1876,12 +1885,22 @@ footer span #copyright{
 
 
 .contact .right #form #email {
+    border-top: 1px solid #111;
+    
     margin-left: -10px;
   
 }
 
 
+.contact .right #form #fromname{
+    border-top: 1px solid #111;
 
+}
+
+.contact .right #form #msg{
+    border-top: 1px solid #111;
+
+}
 .contact .contact-content .left p{
     text-align: justify;
     /* align-items: center; */

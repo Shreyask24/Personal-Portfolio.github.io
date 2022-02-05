@@ -64,6 +64,16 @@ function myFunction(x) {
 }
 
 
+function function12(x) {
+    $('.container').removeClass("change");
+    $('.container').removeClass("active");
+
+}
+
+
+
+
+
 
 
 
